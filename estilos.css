@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items:center;
+}
+
+#container, #ctn-busqueda{
+    display: flex;
+    align-items:center;
+    width: 100%;
+}
+#container{
+    flex-direction: column;
+    margin-top: 100px;
+}
+#ctn-busqueda{
+    max-width: 800px;
+    margin-top: 50px;
+}
+#showResults{
+    margin: 75px 35px;
+}
+
+.separador{
+    margin: 20px;
+    border-bottom: 1px solid black;
+}
